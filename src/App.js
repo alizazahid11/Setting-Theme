@@ -22,10 +22,9 @@ import { faHeart, faPalette ,faSpinner} from '@fortawesome/free-solid-svg-icons'
 function Example(props) {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const[ThemeDark,SetThemeDark]=useState(false);
-  const [bodycolor, SetbodyColor] = useState('');
   const toggle = () => setDropdownOpen(!dropdownOpen);
   const togglethem=()=>{SetThemeDark(!ThemeDark);
-  SetbodyColor(ThemeDark?'':'black')}
+ }
   const bgcolor=ThemeDark?'grey':'';
   const cardcolor=ThemeDark?'black':'';
   const textColor = ThemeDark ? 'white' : '';
