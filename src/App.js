@@ -18,7 +18,7 @@ import {
 } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
-
+import { faHeart, faPalette ,faSpinner} from '@fortawesome/free-solid-svg-icons';
 function Example(props) {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
@@ -74,20 +74,46 @@ function Example(props) {
           alt="Circle"
           className="circle"
         />
-    
-      {}
-      <Card style={{ width: '90rem', height: '400px'}} className='cards'>
-     
-        <CardBody className='card-body'>
-          <CardTitle tag="h5" className='title'>Aliza Zahid</CardTitle>
-          <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
-          <CardText>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </CardText>
-          <Button>Button</Button>
-        </CardBody>
-      </Card>
-    </div>
+
+        { }
+        <Card style={{ width: '90rem', height: '500px' }} className='cards'>
+
+          <CardBody className='card-body'>
+            <CardTitle tag="h5" className='title'>Aliza Muhammad Zahid</CardTitle>
+            <CardSubtitle className="mb-2 text-muted title2" tag="h6" >WEB DEVELOPER</CardSubtitle>
+            <div className="social-icons2">
+              <a href="https://www.twitter.com" className='social-icon2'>
+                <FontAwesomeIcon icon={faTwitter} size="2x" />
+              </a>
+
+              <a href="https://www.instagram.com" className='social-icon2'>
+                <FontAwesomeIcon icon={faInstagram} size="2x" />
+              </a>
+              <a href="https://www.facebook.com" className='social-icon2'>
+                <FontAwesomeIcon icon={faFacebook} size="2x" />
+              </a>
+            </div>
+            <div className='text'>
+              <p>  As a web developer, my role revolves around crafting digital experiences on the internet. I specialize in transforming ideas and designs into interactive websites and web applications, using a combination of programming languages, frameworks, and design principles. My work involves coding the frontend to ensure a visually appealing and user-friendly interface, as well as developing the backend to handle data and functionality.</p>
+            </div>
+            <div className="social-ic">
+              <div className='social-i one'>
+                <FontAwesomeIcon icon={faSpinner} size="2x" /> <p className='para1 '>Studio</p></div>
+                
+            
+
+              <div className='social-i two'>
+                <FontAwesomeIcon icon={faPalette} size="2x" />  <p className='para2'>Work</p></div>
+               
+             
+              <div className='social-i three'>
+                <FontAwesomeIcon icon={faHeart} size="2x" /> <p className='para3'>Favourite</p></div>
+               
+              </div>
+          </CardBody>
+        </Card>
+      </div>
+   
     </div>
   );
 }
