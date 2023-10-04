@@ -3,29 +3,87 @@
   width: 50%;
   display: flex;
   white-space: nowrap;
+  color:white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .Components{
   margin-left: 450%;
+  color:white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Components:hover{
+  color:rgb(157, 239, 255);
 }
 .Upgrade {
-  margin-left: 430%;
+  margin-left: 410%;
   width: 50%;
   display: flex;
   white-space: nowrap;
+  color:white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.Upgrade:hover{
+  color:rgb(157, 239, 255);
 }
-
 .Download{
-  margin-left: 580%;
+  margin-left: 560%;
+  color:white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Download:hover{
+  color:rgb(157, 239, 255);
 }
 .social-icons {
   width: 100%; 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   overflow-x: auto; 
   margin-left: 600%;
-}
 
+}
+.social-icon:hover{
+  color:rgb(157, 239, 255);
+}
 .social-icon {
   white-space: nowrap; 
   margin-right: 10px; 
+  color:white;
+  margin-top: 5px;
 }
+
+.half-background {
+  background-color: rgb(5, 0, 36); 
+  height: 50vh; 
+  display: flex;
+  flex-direction: column; 
+  color: white; 
+}
+.cards{
+margin-top:-70px;
+margin-left: 35px;
+
+}
+.circle-image {
+  text-align: center;
+  position: absolute; 
+  top: 0; 
+  left: 50%;
+  transform: translateX(-50%); 
+  z-index: 1; 
+  padding-top: 20px;
+}
+
+.circle {
+  border-radius: 50%; 
+  width: 140px; 
+  height: 140px;
+  object-fit: cover;
+  border: 2px solid #fff; 
+  z-index: 1;
+  position: relative; 
+  margin-top: 200px;
+
+}
+
+
+
+
