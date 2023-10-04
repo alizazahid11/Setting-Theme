@@ -21,11 +21,16 @@ import { faInstagram, faFacebook, faTwitter } from '@fortawesome/free-brands-svg
 import { faHeart, faPalette ,faSpinner} from '@fortawesome/free-solid-svg-icons';
 function Example(props) {
   const [dropdownOpen, setDropdownOpen] = useState(false);
-
+  const[ThemeDark,SetThemeDark]=useState(false);
+  const [bodycolor, SetbodyColor] = useState('');
   const toggle = () => setDropdownOpen(!dropdownOpen);
-
+  const togglethem=()=>{SetThemeDark(!ThemeDark);
+  SetbodyColor(ThemeDark?'':'black')}
+  const bgcolor=ThemeDark?'grey':'';
+  const cardcolor=ThemeDark?'black':'';
+  const textColor = ThemeDark ? 'white' : '';
   return (
-    <div className="half-background">
+    <div className="half-background"style={{ background:bgcolor }}>
       <Nav>
         <NavItem>
           <NavLink href="#" className='material '>
@@ -76,9 +81,10 @@ function Example(props) {
         />
 
         { }
-        <Card style={{ width: '90rem', height: '500px' }} className='cards'>
+       <div><Button onClick={togglethem} className='theme'>Change Theme</Button></div> 
+        <Card style={{ width: '90rem', height: '470px', backgroundColor: cardcolor  }} className='cards'>
 
-          <CardBody className='card-body'>
+          <CardBody className='card-body'style={{backgroundColor:cardcolor,color:textColor}} >
             <CardTitle tag="h5" className='title'>Aliza Muhammad Zahid</CardTitle>
             <CardSubtitle className="mb-2 text-muted title2" tag="h6" >WEB DEVELOPER</CardSubtitle>
             <div className="social-icons2">

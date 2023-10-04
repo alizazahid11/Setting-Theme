@@ -95,6 +95,7 @@ margin-left: 5px;
   z-index: 1;
   position: relative; 
   margin-top: 100px;
+margin-left: -2px;
 
 }
 .title{
@@ -173,4 +174,10 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 .three:hover{
 
   color:rgb(73,1,73);
+}
+.theme{
+  margin-top: -485px;
+  background-color:  rgb(5, 0, 36);
+  border: none;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
