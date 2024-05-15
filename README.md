@@ -7,12 +7,12 @@ The Theme Setter project is a React-based web application that allows users to s
 ![Alt text](https://github.com/alizazahid11/Setting-Theme/blob/master/theme(2).PNG?raw=true)
 
 
+ ## Live Demo
+https://theme-setting.netlify.app/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
- ## Live Demo
-https://theme-setting.netlify.app/
 
 ## Available Scripts
 
