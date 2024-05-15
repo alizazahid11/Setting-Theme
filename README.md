@@ -1,6 +1,16 @@
+## THEME CHANGER USING REACT
+## Overview 
+The Theme Setter project is a React-based web application that allows users to switch between two themes: a default theme and a black-and-white theme. With a simple click on the "Change Theme" button, users can toggle between these two themes, providing a dynamic and customizable user experience.
+
+## Screenshots
+![Alt text](https://github.com/alizazahid11/Setting-Theme/blob/master/theme.PNG?raw=true)
+![Alt text](https://github.com/alizazahid11/Setting-Theme/blob/master/theme(2).PNG?raw=true)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
  ## Live Demo
 https://theme-setting.netlify.app/
 
@@ -65,7 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
